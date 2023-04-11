@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qp_set_customer_tax_id *.css
+recursive-include qp_set_customer_tax_id *.csv
+recursive-include qp_set_customer_tax_id *.html
+recursive-include qp_set_customer_tax_id *.ico
+recursive-include qp_set_customer_tax_id *.js
+recursive-include qp_set_customer_tax_id *.json
+recursive-include qp_set_customer_tax_id *.md
+recursive-include qp_set_customer_tax_id *.png
+recursive-include qp_set_customer_tax_id *.py
+recursive-include qp_set_customer_tax_id *.svg
+recursive-include qp_set_customer_tax_id *.txt
+recursive-exclude qp_set_customer_tax_id *.pyc
