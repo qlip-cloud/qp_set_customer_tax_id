@@ -85,6 +85,10 @@ app_license = "MIT"
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
+override_doctype_class = {
+	'Customer': 'qp_set_customer_tax_id.qp_set_customer_tax_id.override.customer.QlipCustomer'
+}
+
 # Document Events
 # ---------------
 # Hook on document methods and events
