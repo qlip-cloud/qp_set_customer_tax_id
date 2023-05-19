@@ -86,7 +86,8 @@ app_license = "MIT"
 # }
 
 override_doctype_class = {
-	'Customer': 'qp_set_customer_tax_id.qp_set_customer_tax_id.override.customer.QlipCustomer'
+	'Customer': 'qp_set_customer_tax_id.qp_set_customer_tax_id.override.customer.QlipCustomer',
+	'Supplier': 'qp_set_customer_tax_id.qp_set_customer_tax_id.override.supplier.QlipSupplier'
 }
 
 # Document Events
