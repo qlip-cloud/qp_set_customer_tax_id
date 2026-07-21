@@ -102,15 +102,15 @@ override_doctype_class = {
 #	}
 # }
 
-doc_events = {
+# doc_events = {
 
-    "Customer": {
-        "before_save":      ["qp_set_customer_tax_id.qp_set_customer_tax_id.uses_cases.validation.handle"]
-    },
-    "Supplier": {
-        "before_save":      ["qp_set_customer_tax_id.qp_set_customer_tax_id.uses_cases.validation.handle"]
-    }
-}
+#     "Customer": {
+#         "before_save":      ["qp_set_customer_tax_id.qp_set_customer_tax_id.uses_cases.validation.handle"]
+#     },
+#     "Supplier": {
+#         "before_save":      ["qp_set_customer_tax_id.qp_set_customer_tax_id.uses_cases.validation.handle"]
+#     }
+# }
 
 # Scheduled Tasks
 # ---------------
